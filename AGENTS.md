@@ -32,7 +32,8 @@ Priorities, in order:
 1. README.md
 2. docs/DESIGN_PLAN.md
 3. docs/ENGINEERING_GATES.md
-4. docs/SAFETY_AND_RISKS.md
+4. docs/VIRTUAL_VERIFICATION.md — mandatory pre-fabrication analog/DSP/firmware/PCB/DFM verification strategy
+5. docs/SAFETY_AND_RISKS.md
 5. docs/DECISIONS.md
 6. docs/REFERENCES.md
 7. docs/HANDOFF.md
