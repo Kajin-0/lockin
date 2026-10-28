@@ -159,7 +159,7 @@ JLCPCB background references:
 
 ## Proposed repository outputs (create when physical design is available)
 
-\`\`\`text
+```text
 sim/
   multiphysics/
     thermal/          # board geometry export, mesh, solver configs, heat source table
@@ -171,7 +171,7 @@ sim/
     reports/          # mesh convergence, sensitivity, plots and machine-readable PASS/FAIL
 verification/
   first_article/      # automatic lab fixture protocol and minimum compulsory tests
-\`\`\`
+```
 
 Do not commit restricted vendor models. Preserve CAD version, solver version, mesh algorithm, solver settings, hashes, random seeds, temperature and assumptions in each report.
 
