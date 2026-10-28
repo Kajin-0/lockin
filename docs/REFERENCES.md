@@ -13,10 +13,10 @@ Source links are **manufacturer primary references** gathered during architectur
 | ADI AD9833 data sheet | https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf | Phase/register reset sequencing, output characteristics, reconstruction/filtering, clock |
 | ADI AD9833 No-OS software | https://wiki.analog.com/resources/tools-software/uc-drivers/ad9833 | Existing reference driver for bring-up/cross-check |
 | TI ISOUSB111 datasheet | https://www.ti.com/lit/ds/symlink/isousb111.pdf | Full-speed 12 Mbps USB; dual-side supply and isolation barrier requirements; system-level isolation NOT assured |
-| TI STM32H723 reference | https://www.st.com/en/microcontrollers-microprocessors/stm32h723-733.html | MCU family capabilities; **verify chosen exact variant's latest datasheet, reference manual and errata** |
+| STMicroelectronics STM32H723 product | https://www.st.com/en/microcontrollers-microprocessors/stm32h723-733.html | MCU family capabilities; **verify chosen exact variant's latest datasheet, reference manual and errata** |
 | TI REF5045 reference | https://www.ti.com/product/REF5045 | Precision 4.5 V reference; verify output current, temperature drift, 1/f and broadband noise, buffer requirements |
 
-Correction: STM32H723 is an **STMicroelectronics**, not TI, part; the linked ST product page is authoritative. This document has not yet audited exact STM32H723 variant/errata. Likewise, prefer the latest approved ADI AD9833 URL if manufacturer redirects.
+The STM32H723 exact package, pinout, SPI/DMA capabilities and silicon errata have **not** yet been audited. Verify manufacturer revisions before a schematic or firmware claim. Likewise, follow manufacturer redirects to the current AD9833 datasheet.
 
 ## Comparison benchmark (NOT a Rev A guarantee)
 
