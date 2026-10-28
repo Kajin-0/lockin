@@ -34,9 +34,9 @@ Priorities, in order:
 3. docs/ENGINEERING_GATES.md
 4. docs/VIRTUAL_VERIFICATION.md — mandatory pre-fabrication analog/DSP/firmware/PCB/DFM verification strategy
 5. docs/SAFETY_AND_RISKS.md
-5. docs/DECISIONS.md
-6. docs/REFERENCES.md
-7. docs/HANDOFF.md
+6. docs/DECISIONS.md
+7. docs/REFERENCES.md
+8. docs/HANDOFF.md
 
 If a document disagrees with another, check its date, the decision log, and the latest verified datasheet. Record and resolve discrepancies; do not silently choose the convenient value.
 
