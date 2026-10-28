@@ -131,7 +131,7 @@ Checks:
 
 **Gate V4** — KiCad ERC/DRC clean; manufacturer pinout/footprint cross-check; tested safe-off fault logic; signal/ground/isolation/thermal layout review.
 
-**Gate V5** — Gerber/BO​M/CPL/assembly preview fully reconciled, in-stock components selected, fabrication stackup and assembly rules documented, independently reviewed.
+**Gate V5** — Gerber/BOM/CPL/assembly preview fully reconciled, in-stock components selected, fabrication stackup and assembly rules documented, independently reviewed.
 
 **Gate V6** — Explicit final sign-off with limitations and known risks. Order **small first-article batch**, not production quantity.
 
@@ -139,7 +139,7 @@ Physical **Gate P** after fabrication: current-limited bring-up, thermal and rai
 
 ## Reproducible repository structure to create progressively
 
-\`\`\`text
+```text
 hardware/
   kicad/                # actual schematics, symbols, PCB, library tables
   spice/                # source decks, vendor models where redistribution permitted
@@ -155,7 +155,7 @@ verification/
   reports/              # CI logs, requirements cross-reference, design waivers
 .github/workflows/
   verify.yml            # pytest/Rust tests, KiCad ERC/DRC when design exists
-\`\`\`
+```
 
 No empty placeholder directory needs to be created until files exist. Respect vendor redistributable SPICE model terms; download restricted models during authorized builds rather than commit them.
 
