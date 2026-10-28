@@ -12,6 +12,7 @@
 - Created AGENTS.md for mandatory recovery rules.
 - Created docs/DESIGN_PLAN.md architecture and stage plan.
 - Created docs/ENGINEERING_GATES.md verification gates/test matrix.
+- Added docs/VIRTUAL_VERIFICATION.md with vendor-supported SPICE/model plan, seeded system simulation, Rust DSP comparisons, KiCad/ERC/DRC, JLCPCB BOM/CPL/DFM, release gating and limits of simulation. **Plan only; no tests executed.**
 - Created docs/SAFETY_AND_RISKS.md safe-state rules and FMEA.
 - Created docs/DECISIONS.md ADR record and unresolved choices.
 - Created docs/REFERENCES.md manufacturer source links.
