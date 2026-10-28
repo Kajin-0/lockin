@@ -43,9 +43,10 @@ Build an affordable, serviceable scientific instrument capable of measuring smal
 2. [docs/DESIGN_PLAN.md](docs/DESIGN_PLAN.md): architecture, requirements, PCB sheets, technical assumptions.
 3. [docs/ENGINEERING_GATES.md](docs/ENGINEERING_GATES.md): rigorous go/no-go criteria and qualification.
 4. [docs/VIRTUAL_VERIFICATION.md](docs/VIRTUAL_VERIFICATION.md): SPICE, DSP, firmware, PCB, and manufacturing simulation-and-test plan.
-5. [docs/SAFETY_AND_RISKS.md](docs/SAFETY_AND_RISKS.md): faults, safe states, hazards, high-risk circuits.
-6. [docs/DECISIONS.md](docs/DECISIONS.md): architecture decisions, alternatives and unresolved items.
-7. [docs/REFERENCES.md](docs/REFERENCES.md): manufacturer primary sources.
+5. [docs/MULTIPHYSICS_VERIFICATION.md](docs/MULTIPHYSICS_VERIFICATION.md): electrothermal, EM, PDN and thermal-mechanical co-simulation with non-waivable first-article tests.
+6. [docs/SAFETY_AND_RISKS.md](docs/SAFETY_AND_RISKS.md): faults, safe states, hazards, high-risk circuits.
+7. [docs/DECISIONS.md](docs/DECISIONS.md): architecture decisions, alternatives and unresolved items.
+8. [docs/REFERENCES.md](docs/REFERENCES.md): manufacturer primary sources.
 
 ## Workflow
 
